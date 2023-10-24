@@ -1,0 +1,94 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0B0EFEF827DFE39800D89D9D /* code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = code.h; sourceTree = "<group>"; };
+		0B0EFEF927DFE39800D89D9D /* code.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = code.c; sourceTree = "<group>"; };
+		0B0EFEFA27DFE47100D89D9D /* map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = map.c; sourceTree = "<group>"; };
+		0B0EFEFB27DFE47100D89D9D /* map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		0B0EFEFC27DFE47100D89D9D /* maptest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maptest.c; sourceTree = "<group>"; };
+		0B71E65527CFE43E0018EB4F /* parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parser.h; sourceTree = "<group>"; };
+		0B71E65627CFE43E0018EB4F /* parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		0B71E65727CFE43E0018EB4F /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		0B71E65927CFE5020018EB4F /* parsercopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parsercopy.h; sourceTree = "<group>"; };
+		0B71E65A27CFE5020018EB4F /* parsercopy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parsercopy.c; sourceTree = "<group>"; };
+		0B71E69827D049790018EB4F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B71E64D27CFE3D00018EB4F = {
+			isa = PBXGroup;
+			children = (
+				0B71E65927CFE5020018EB4F /* parsercopy.h */,
+				0B71E65A27CFE5020018EB4F /* parsercopy.c */,
+				0B71E65727CFE43E0018EB4F /* Makefile */,
+				0B0EFEF827DFE39800D89D9D /* code.h */,
+				0B0EFEF927DFE39800D89D9D /* code.c */,
+				0B71E65627CFE43E0018EB4F /* parser.c */,
+				0B71E65527CFE43E0018EB4F /* parser.h */,
+				0B71E69827D049790018EB4F /* main.c */,
+				0B0EFEFA27DFE47100D89D9D /* map.c */,
+				0B0EFEFB27DFE47100D89D9D /* map.h */,
+				0B0EFEFC27DFE47100D89D9D /* maptest.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		0B71E64E27CFE3D00018EB4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 0B71E65127CFE3D10018EB4F /* Build configuration list for PBXProject "assemblerproject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B71E64D27CFE3D00018EB4F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0B71E65227CFE3D10018EB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0B71E65327CFE3D10018EB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B71E65127CFE3D10018EB4F /* Build configuration list for PBXProject "assemblerproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B71E65227CFE3D10018EB4F /* Debug */,
+				0B71E65327CFE3D10018EB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B71E64E27CFE3D00018EB4F /* Project object */;
+}
